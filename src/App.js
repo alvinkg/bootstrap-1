@@ -1,11 +1,12 @@
 
-import './App.css';
-import ThemeSwitcher from './ThemeSwitcher';
+import ThemeSwitcher from "./ThemeSwitcher";
 
 function App() {
   return (
-    <div className="App">
-      <ThemeSwitcher/>
+    <div className="App min-vh-100 d-flex justify-content-center align-items-center">
+      <div>
+        <ThemeSwitcher />
+      </div>
     </div>
   );
 }
